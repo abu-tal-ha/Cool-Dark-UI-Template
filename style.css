@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+     font-family: "Raleway", sans-serif;
+     font-family: "Inter", sans-serif;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+}
+ 
+
+
+
+
+.navbar { 
+  position: fixed;
+  top: 50px;
+  left: 0;
+  right: 0;
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 9999;
+}
+
+
+
+.hero {
+  background: url("assets/hero-bg.png") center/cover no-repeat;
+  /* background-color: #f0f2f7; */
+  height: 100vh;
+  max-height: 700px;
+  position: relative;
+  text-align: center;
+  padding-top: 100px;
+  margin: 0 auto;
+}
+ 
+
+.signup-btn {
+  background-color: #4E47FF;
+  color: white;
+  padding: 10px 20px;
+  width: 132px;
+  height: 48px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.3s, font-size 0.3s;
+}
+
+.signup-btn:hover {
+  background-color: #ff258bde;
+  font-size: 18px; 
+}
+
+
+
+.content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content h1 {
+  font-size: 55px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #111;
+}
+
+.main-btn {
+  margin-top: 37px;
+  width: 174px;
+  height: 48px;
+  background-color: #4E47FF;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer; 
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.main-btn:hover {
+  background-color: #ff2566;
+  font-size: 18px;
+}
+
